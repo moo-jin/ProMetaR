@@ -1,0 +1,8 @@
+DATASET:
+  NAME: "affectnet"
+  ROOT: "data"  # AffectNet 위치
+  NUM_SHOTS: 16
+  SUBSAMPLE_CLASSES: "all"
+
+INPUT:
+  SIZE: [224, 224]
