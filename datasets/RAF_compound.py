@@ -13,7 +13,7 @@ CLASSNAMES = [
 
 
 @DATASET_REGISTRY.register()
-class RAF(DatasetBase):
+class RAF_compound(DatasetBase):
 
     dataset_dir = "RAF_coumpound"  # 대소문자 정확히 반영
 
