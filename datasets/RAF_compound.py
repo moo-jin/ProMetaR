@@ -15,7 +15,7 @@ CLASSNAMES = [
 @DATASET_REGISTRY.register()
 class RAF_compound(DatasetBase):
 
-    dataset_dir = "RAF_coumpound"  # 대소문자 정확히 반영
+    dataset_dir = "RAF_compound"  # 대소문자 정확히 반영
 
     def __init__(self, cfg):
         root = os.path.abspath(os.path.expanduser(cfg.DATASET.ROOT))
